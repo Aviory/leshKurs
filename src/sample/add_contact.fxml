@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="607.0" prefWidth="510.0" style="-fx-pref-height: 650; -fx-pref-width: 430;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddContactController">
+   <children>
+      <Label layoutX="136.0" layoutY="14.0" prefHeight="61.0" prefWidth="158.0" text="новый контакт" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="174.0" prefHeight="36.0" prefWidth="63.0" text="номер" />
+      <Label layoutX="36.0" layoutY="110.0" text="имя" />
+      <Label layoutX="33.0" layoutY="263.0" text="компания" />
+      <Label layoutX="34.0" layoutY="354.0" text="описание" />
+      <TextField id="txtName" fx:id="txtName" layoutX="36.0" layoutY="138.0" />
+      <TextField id="txtNumber" fx:id="txtNumber" layoutX="36.0" layoutY="218.0" />
+      <TextField id="txtCompany" fx:id="txtCompany" layoutX="36.0" layoutY="300.0" />
+      <TextArea id="txtDescription" fx:id="txtDescription" layoutX="36.0" layoutY="391.0" prefHeight="140.0" prefWidth="329.0" />
+      <Button id="btnOk" fx:id="btnOk" layoutX="252.0" layoutY="585.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="124.0" text="добавить" />
+      <Button id="btnClose" fx:id="btnClose" layoutX="45.0" layoutY="585.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="131.0" text="отмена" />
+      <Label fx:id="txtNameError" layoutX="224.0" layoutY="142.0" prefHeight="17.0" prefWidth="131.0" style="-fx-text-fill: red;" />
+      <Label fx:id="txtNumberError" layoutX="224.0" layoutY="222.0" prefHeight="17.0" prefWidth="158.0" style="-fx-text-fill: red;" />
+      <Label fx:id="txtCompanyError" layoutX="228.0" layoutY="304.0" prefHeight="17.0" prefWidth="124.0" style="-fx-text-fill: red;" />
+      <Label fx:id="txtDescriptionError" layoutX="43.0" layoutY="550.0" prefHeight="17.0" prefWidth="186.0" style="-fx-text-fill: red;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="855.0" prefWidth="367.0" style="-fx-pref-height: 805; -fx-pref-width: 600;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MainSceneController">
+   <children>
+      <AnchorPane layoutX="24.0" layoutY="22.0" />
+      <AnchorPane layoutY="54.0" prefHeight="780.0" prefWidth="253.0">
+         <children>
+            <ScrollPane id="contactsList" fx:id="scrollPane" layoutX="32.0" prefHeight="771.0" prefWidth="221.0" />
+         </children>
+      </AnchorPane>
+      <Button id="addBtn" fx:id="addBtn" accessibleHelp="новый контакт" accessibleText="новый контакт" layoutX="276.0" layoutY="795.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="173.0" text="добавить новый контакт">
+         <tooltip><Tooltip text="кнопка добвления" /></tooltip>
+      </Button>
+      <Label layoutX="101.0" layoutY="22.0" text="Контакты" />
+   </children>
+</AnchorPane>
